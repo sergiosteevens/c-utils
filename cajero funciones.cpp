@@ -142,11 +142,11 @@ bool validarUsuario(int usuario,int contrasenia){
 using namespace std;
 
 // Variables globales
-long saldo = 15000000; // Como está por fuera de las funciones es global
+long saldo = 15000000; // Como estÃ¡ por fuera de las funciones es global
 int user = 1234;
 int pass = 4321;
 
-// Declaración de funciones
+// DeclaraciÃ³n de funciones
 int imprimirMenu();
 void consultarSaldo();
 long consignar(long valor);
@@ -166,7 +166,7 @@ int main() {
 	cin >> contrasenia;
 	
 
-    // Validación de usuario
+    // ValidaciÃ³n de usuario
     if (validarUsuario(usuario, contrasenia)) {
         opcion = imprimirMenu();
 
@@ -202,10 +202,10 @@ int main() {
     return 0;
 }
 
-// Definición de funciones
+// DefiniciÃ³n de funciones
 int imprimirMenu() {
     int opcion = 0;
-    cout << "\t\t\tBienvenido al Cajero del profe Jhon!\n";
+    cout << "\t\t\tBienvenido al Cajero!\n";
     cout << "1. Consultar saldo\n";
     cout << "2. Consignar\n";
     cout << "3. Retirar\n";
