@@ -88,7 +88,7 @@ int main(){
   
   int imprimirMenu(){
   	int opcion=0; //variable en la cual se va a guardar la opcion que ingrese el ususario
-  	cout << "\t\t\tBienvenido al Cajero del profe Jhon!\n";
+  	cout << "\t\t\tBienvenido al Cajero!\n";
 	   cout <<endl;	
 	    cout<<"1. Consultar saldo"<<endl;
   // cout<<"2. Consignar"<<endl;
